@@ -60,7 +60,6 @@ def GD(start,x,y,z, c, dc, iters, eta):
     print("Converged Point:",px,py)
     plot_grad_change(x,y,z, c, grad_xs0,grad_xs1, grad_ys)
 
-
 lo = -10
 hi = 10
 x1 = round(random.uniform(lo,0),4)
@@ -73,4 +72,4 @@ for i in range(X.shape[0]):
     for j in range(X.shape[1]):
         Z[i][j] = C(np.array([[X[i][j]], [Y[i][j]]])).item()
 # start Gradient Descent
-GD(np.array([x1,x2]).reshape(2,1),X,Y,Z, C, dC, iters, learning_rate)
+GD(np.array([x1,x2]).reshape(2,1),X,Y,Z, C, dC, iters, learning_rate) 
