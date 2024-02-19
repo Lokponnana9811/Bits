@@ -10,7 +10,7 @@ def power_method(A, max_iterations=1000):
     lambda_prev = 0
     
     # Print initial iterate
-    #print("Iterate 0: Eigenvalue estimate =", lambda_prev)
+    print("Iterate 0: Eigenvalue estimate =", lambda_prev)
     
     # Iterate
     for i in range(1, max_iterations + 1):
