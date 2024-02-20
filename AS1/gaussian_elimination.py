@@ -45,4 +45,5 @@ A = [[1, -2, 2, 4, 0, 1, 2],
 
 B = [1, 2, -3, 3, 2]
 
+
 gaussian_elimination(A, B)

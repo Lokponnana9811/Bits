@@ -5,6 +5,7 @@ def print_matrix(matrix):
 def identity_matrix(size):
     return [[1 if i == j else 0 for j in range(size)] for i in range(size)]
 
+
 def row_operation_matrix(size, i, j, factor):
     mat = identity_matrix(size)
     mat[j][i] = factor

@@ -4,6 +4,7 @@ def dot_product(v1, v2):
         result += x * y
     return result
 
+
 def scalar_multiply(scalar, vector):
     result = []
     for x in vector:
